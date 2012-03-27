@@ -1,0 +1,14 @@
+// 2 objects in the file
+2
+ 
+// line in XY plane
+curve
+1
+0. 1.
+1. 0. 0.
+1.
+1. 2. 0.
+1.
+ 
+// second entity is a revolved surface from that line:
+surfacerevolved

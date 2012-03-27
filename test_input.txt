@@ -1,0 +1,36 @@
+// this file contains two objects
+2
+
+// the first object is a curve:
+curve
+
+//of degree 3:
+3
+
+// here’s the (single) knot vector
+0. 0. 0. 1. 1. 1.
+
+// here are the control points, (k-n+1 = 6-3+1) of them.
+0.0 1.0 1.0
+0.0 -1.0 2.0
+0.0 1.0 3.0
+0.0 -1.0 4.0
+// the next object is a surface
+surface
+
+// degree 3 (in u) x degree 2 (in v)
+3 2
+
+// two knot vectors, the first in U, the second in V
+0. 1. 2. 3. 4. 5.
+0. 0. 1. 1.
+
+// and here are the control points array: 3 rows of 4 xyz points each.
+// 3 rows because it’s a simple quadratic in V, 4 columns of xyz vals because
+// it’s a simple cubic in U. Note also that: num_knots - degree + 1
+// holds for both U and V
+0.0 2.0 0.0 0.0 1.8 1.0 0.0 1.6 2.0 0.0 1.3 3.0
+0.0 1.0 0.0 0.0 1.0 1.0 0.0 1.0 2.0 0.0 1.0 3.0
+1.0 0.0 0.0 1.0 0.0 1.0 1.0 0.0 2.0 1.0 0.0 3.0
+
+// end of file

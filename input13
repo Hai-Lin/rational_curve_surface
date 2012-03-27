@@ -1,0 +1,23 @@
+// 2 objects in the scene file
+2
+ 
+// profile curve in the XY plane:
+curve
+3
+0. 0. 0. .25 .5 .75 1. 1. 1. 
+0. 0. 0.
+1.0
+1. 0. 0.
+1.0
+1.6 0.6 0.0
+1.0
+1.6 1.6 0.0
+1.0
+0.6 1.6 0.0
+1.0
+0.4 1.0 0.0
+1.0
+0.0 1.0 0.0
+1.0
+ 
+surfacerevolved
